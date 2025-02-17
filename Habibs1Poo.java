@@ -1,12 +1,7 @@
-
-
-
+import java.util.ArrayList;
 
 
 // Classe Abstrata Funcionario
-
-import java.util.ArrayList;
-
 abstract class Funcionario {
     private String nome;
     private int matricula;
@@ -122,8 +117,5 @@ public class Habibs1Poo{
         }
 
         
-   
-
-
     }
 }
