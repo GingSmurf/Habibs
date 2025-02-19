@@ -176,6 +176,7 @@ public class Banco {
         contas.add(new ContaCorrente("12345", 1000.0, 500.0));
         contas.add(new ContaPoupaca("67890", 2000.0, 0.5));
         contas.add(new ContaInvestimento("54321", 5000.0, "Habibs"));
+        contas.add(new ContaInvestimento("54321", 5000.0, "Pizza Forte"));
 
         // Percorrendo a lista e realizando operações
         for (ContaBancaria conta : contas) {
